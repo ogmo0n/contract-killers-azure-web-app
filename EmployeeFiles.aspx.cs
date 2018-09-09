@@ -23,7 +23,7 @@ public partial class EmployeeFiles : System.Web.UI.Page
         SqlCommand command;
         string sql = null;
         SqlDataReader dataReader;
-        connectionString = "Data Source=laptop-6qs87gl2.database.windows.net;Initial Catalog=CloudProject;Persist Security Info=True;User ID=chrodd9604;Password=Password1;";
+        connectionString = "Data Source=laptop-6qs87gl2.database.windows.net;Initial Catalog=CloudProject;Persist Security Info=True;User ID='';Password='';";
         sql = "select EmployeeID, FirstName, LastName, BusinessEmail from dbo.employee_file";
         connection = new SqlConnection(connectionString);
         try

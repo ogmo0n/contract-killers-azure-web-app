@@ -32,7 +32,7 @@ using System.Data.SqlClient;
             SqlCommand command;
             string sql = null;
             SqlDataReader dataReader;
-            connectionString = "Data Source=laptop-6qs87gl2.database.windows.net;Initial Catalog=CloudProject;Persist Security Info=True;User ID=chrodd9604;Password=Password1;";
+            connectionString = "Data Source=laptop-6qs87gl2.database.windows.net;Initial Catalog=CloudProject;Persist Security Info=True;User ID='';Password='';";
             sql = "select FirstName, LastName, BusinessEmail, BusinessPhone from dbo.employee where EmployeeID = " + Session["EmpID"];
             connection = new SqlConnection(connectionString);
             try

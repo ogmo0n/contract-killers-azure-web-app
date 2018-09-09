@@ -31,7 +31,7 @@ public partial class insert_cloud : System.Web.UI.Page
         long EmpID = 0;
 
         string sql = null;
-        connectionString = "Data Source=laptop-6qs87gl2.database.windows.net;Initial Catalog=CloudProject;Persist Security Info=True;User ID=chrodd9604;Password=Password1;";
+        connectionString = "Data Source=laptop-6qs87gl2.database.windows.net;Initial Catalog=CloudProject;Persist Security Info=True;User ID='';Password='';";
         connection = new SqlConnection(connectionString);
         try
         {
